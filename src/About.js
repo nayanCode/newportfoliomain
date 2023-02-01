@@ -1,14 +1,15 @@
 import React from 'react'
+import './App.css'
 
 export default function About
     () {
     return (
-        <div className='container'>
-            <section className='m-5'>
-                <h2 className='text-center'>About</h2>
-                <div className='row m-5'>
+        <div >
+            <section className='AboutMain'>
+                <h2 className='text-center'>About Me</h2>
+                <div className='row mx-4 my-4'>
                     <div className='col-6'>
-                        <div>
+                        <div className='textBox'>
                             <p>
                                 Hello! My name is Brittany and I enjoy creating things that live on the internet.
                                 My interest in web development started back in 2012 when I decided to try editing
@@ -27,16 +28,16 @@ export default function About
                             </p>
                         </div>
                         <div className='row'>
-                            <ul className="list-group col-6">
-                                <li className="list-group-item">Item 1</li>
-                                <li className="list-group-item">Item 2</li>
-                                <li className="list-group-item">Item 3</li>
-                            </ul>
-                            <ul className="list-group col-6">
-                                <li className="list-group-item">Item 1</li>
-                                <li className="list-group-item">Item 2</li>
-                                <li className="list-group-item">Item 3</li>
-                            </ul>
+                        <ul class="list-unstyled listclass col-6">
+                  <li ><i class="fas fa-caret-right"></i>JavaScript (ES6+)</li>
+                  <li><i class="fas fa-caret-right"></i>React</li>
+                  <li><i class="fas fa-caret-right"></i>Node.js</li>
+                </ul>
+                <ul class="list-unstyled listclass col-6">
+                  <li ><i class="fas fa-caret-right"></i>C++</li>
+                  <li><i class="fas fa-caret-right"></i>Python</li>
+                  <li><i class="fas fa-caret-right"></i>MongoDB</li>
+                </ul>
                         </div>
                     </div>
                     <div className='col-6'>
