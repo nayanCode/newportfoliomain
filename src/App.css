@@ -3,11 +3,16 @@
   color:#8892b0;
   font-family: "Calibre","Inter","San Francisco","SF Pro Text",system-ui,sans-serif;
 }
-
+.card:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
 .rootclass{
 padding:0 100px;
 }
-
+.list-group-item {
+  border: none !important;
+}
 .secmain{
   display: flex;
     -webkit-box-pack: center;
