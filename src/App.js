@@ -2,14 +2,19 @@ import './App.css';
 import Navbar from './Navbar';
 import Footer from './Footer';
 import Body from './Body';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-    <Navbar/>
+
+     <Router>
+     <Routes>
+     <Navbar/>
     <Body/>
     <Footer/>
-    </div>
+       <Route exact path='/resume' element={<Resume />} />
+     </Routes>
+   </Router>
   );
 }
 

@@ -1,4 +1,6 @@
 import React from 'react'
+import './App.css';
+
 
 export default function Getintouch() {
     return (
@@ -11,7 +13,13 @@ export default function Getintouch() {
                             my inbox is always open. Whether you have a question or just want to say hi,
                             I’ll try my best to get back to you!
                         </p>
-                        <button className="btn btn-primary">Primary Button</button>
+                        <div class="btn-group" role="group">
+                            <div className='buttongrp'>
+            <a href="https://github.com/nayanCode" role="button" class="btn btn-outline-danger"><i class="bi bi-instagram --bs-primary"></i></a>
+            </div>
+         
+            </div>
+                        
                     </div>
                 </div>
             </section>

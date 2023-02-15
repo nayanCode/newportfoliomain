@@ -41,8 +41,8 @@ export default function About
                         </div>
                     </div>
                     <div className='col-6'>
-                        <div>
-                            <p className='text-center'>My Image</p>
+                        <div className='profileImage'>
+                            <img class="img-fluid img-thumbnail" src="/profile_image.jpg"/>
                         </div>
                     </div>
                 </div>

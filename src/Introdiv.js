@@ -1,5 +1,4 @@
 import React from 'react'
-import { Button } from 'react-bootstrap'
 import './App.css';
 
 
@@ -22,7 +21,7 @@ export default function Introdiv() {
                 </p>
             </div>
             <div className='buttongithub'>
-            <button type="button" class="btn btn-outline-info p-3 w-100">Check Out Our Github!</button>
+            <a href="https://github.com/nayanCode" role="button" class="btn btn-outline-info p-3 w-100">Check Out Our Github!</a>
             </div>
             </div>
         </div>

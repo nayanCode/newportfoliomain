@@ -10,6 +10,9 @@
 .rootclass{
 padding:0 100px;
 }
+.rootclass:nth-child(3){
+margin-top:10px;
+}
 .list-group-item {
   border: none !important;
 }
@@ -65,4 +68,13 @@ margin:22px 0;
 }
 .AboutMain{
   font-size: 17px;
+}
+
+.profileImage{
+  height: 40px;
+}
+
+.profileImage>img{
+  height:450px;
+  object-fit: contain;
 }
